@@ -1,4 +1,8 @@
 /* Global */
+.header a {
+    letter-spacing: 3px;
+}
+
 .header a, .nav-item a {
     text-decoration: none;
     text-transform: uppercase;
@@ -13,6 +17,22 @@
 }
 
 .nav-item {
-    margin: 1px 20px 2px 20px;
-    padding: 10px 0;
+    margin: 11px 20px 12px 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: var(--secondary-color);
+    transition: width .5s;
+}
+
+.nav-item:hover:after {
+    width: 100%;
 }

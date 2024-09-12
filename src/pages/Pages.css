@@ -1,1 +1,6 @@
 /* Global */
+.page-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15px 0;
+}

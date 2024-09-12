@@ -23,6 +23,7 @@ html {
 
 body {
   line-height: 1.6;
+  font-weight: 600;
   font-family: 'Cabin', sans-serif;
   background-color: var(--primary-color);
   color: var(--secondary-color);
