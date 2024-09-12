@@ -44,11 +44,6 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    // <header className="header">
-    //   <nav className="nav container">
-    //     <a href="/">Hauser & Wirth</a>
-    //   </nav>
-    // </header>
   )
 }
 

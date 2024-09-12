@@ -16,7 +16,6 @@ html {
 .App {
   margin: 0;
   padding: 0;
-  height: 100vh;
   width: 100vw;
   box-sizing: border-box;
 }
@@ -27,4 +26,5 @@ body {
   font-family: 'Cabin', sans-serif;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  overflow-x: hidden;
 }

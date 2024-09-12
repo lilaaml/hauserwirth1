@@ -4,3 +4,40 @@
     font-weight: bold;
     margin: 15px 0;
 }
+
+.vr {
+    width: 2px;
+}
+
+.grid-header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-subheader {
+    display: flex;
+    align-items: center;
+}
+
+.grid-subheader > span {
+    text-align: center;
+}
+
+.chev-btn:hover {
+    cursor: pointer;
+}
+
+.grid-item {
+    max-width: 300px;
+    height: auto;
+    text-transform: uppercase;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.news {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}

@@ -2,7 +2,7 @@ import './Components.css'
 
 const Footer = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-sm">
       Footer
     </div>
   )
