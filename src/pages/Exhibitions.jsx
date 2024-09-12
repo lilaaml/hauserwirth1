@@ -2,7 +2,7 @@ import './Pages.css'
 
 const Exhibitions = () => {
   return (
-    <div>
+    <div className="container-fluid">
       Gallery Exhibitions
     </div>
   )

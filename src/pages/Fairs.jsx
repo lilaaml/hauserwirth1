@@ -2,7 +2,7 @@ import './Pages.css'
 
 const Fairs = () => {
   return (
-    <div>
+    <div className="container-fluid">
       Fairs
     </div>
   )

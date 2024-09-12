@@ -2,7 +2,7 @@ import './Pages.css'
 
 const Artists = () => {
   return (
-    <div>
+    <div className="container-fluid">
       Artists & Estates
     </div>
   )
