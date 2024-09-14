@@ -6,7 +6,7 @@ import './Pages.css'
 
 const Home = () => {
   const fcExList = fcExhibitions.map(item => (
-    <div key={item.id} className="grid-item mx-4 my-2">
+    <div key={item.id} className="grid-item col mx-4 my-2">
       <img src={item.img} alt={item.name} />
       <div className="span d-flex flex-column">
         <span className="h3 py-1 item-name">{item.name}</span>
@@ -28,9 +28,9 @@ const Home = () => {
             <span>View all <FaArrowRight /></span>
           </div>
           <span className="h4">
-            <i href="/" className="chev-btn"><GoChevronLeft /></i> 1 / 6 <i className="chev-btn"><GoChevronRight /></i></span>
+            <button href="/" className="chev-btn"><GoChevronLeft /></button> 1 / 6 <button className="chev-btn right"><GoChevronRight /></button></span>
         </div>
-        <div className="grid-list my-3 d-flex flex-wrap justify-content-center">
+        <div className="grid-list my-3 row flex-nowrap justify-content-center">
           {fcExList}
         </div>
       </div>
@@ -52,34 +52,8 @@ const Home = () => {
           <span className="h4">
             <i href="/" className="chev-btn"><GoChevronLeft /></i> 1 / 8 <i className="chev-btn"><GoChevronRight /></i></span>
         </div>
-        <div className="grid-list my-3 d-flex flex-wrap justify-content-center">
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
+        <div className="grid-list my-3 row flex-nowrap justify-content-center">
+          {fcExList}
         </div>
       </div>
 
@@ -99,34 +73,8 @@ const Home = () => {
           <span className="h4">
             <i href="/" className="chev-btn"><GoChevronLeft /></i> 1 / 8 <i className="chev-btn"><GoChevronRight /></i></span>
         </div>
-        <div className="grid-list my-3 d-flex flex-wrap justify-content-center">
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
+        <div className="grid-list my-3 row flex-nowrap justify-content-center">
+          {fcExList}
         </div>
       </div>
 
@@ -147,34 +95,8 @@ const Home = () => {
           <span className="h4">
             <i href="/" className="chev-btn"><GoChevronLeft /></i> 1 / 18 <i className="chev-btn"><GoChevronRight /></i></span>
         </div>
-        <div className="grid-list my-3 d-flex flex-wrap justify-content-center">
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
-          <div className="grid-item mx-4 my-2">
-            <img src="https://media.hauserwirth.com/transform/990831e8-d6c1-4997-8fec-0052fefaeab8/METZG108901-cover-frame" alt="item-1.png" className="" />
-            <div className="span d-flex flex-column">
-              <span className="item-name">name</span>
-              <span className="item-headline">headline</span>
-              <span className="item-date">date</span>
-              <span className="item-place">place</span>
-            </div>
-          </div>
+        <div className="grid-list my-3 row flex-nowrap justify-content-center">
+          {fcExList}
         </div>
       </div>
     </div>
