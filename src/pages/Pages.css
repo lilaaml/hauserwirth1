@@ -37,6 +37,10 @@
     width: 100%;
 }
 
+.grid-item img:hover, .item-name:hover, .item-headline:hover {
+    cursor: pointer;
+}
+
 .news {
     color: var(--primary-color);
     background-color: var(--secondary-color);
